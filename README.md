@@ -1,6 +1,7 @@
 # MBC-Automation
 This will be complete End to End Automation Framework testing of our MBC SaaS Project using Playwright and JS
 
+```
 mbc-playwright-framework/
 │
 ├── tests/                       # Test files
@@ -32,3 +33,4 @@ mbc-playwright-framework/
 │
 ├── playwright.config.js         # Playwright global config
 └── package.json
+```
