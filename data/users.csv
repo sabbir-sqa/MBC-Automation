@@ -1,0 +1,4 @@
+const testData = {
+    validUser: { email: 'user@example.com', pass: 'Pass123' },
+    invalidUser: { email: 'wrong@example.com', pass: 'WrongPass' }
+};

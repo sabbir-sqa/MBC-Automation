@@ -3,9 +3,9 @@
 class LoginPage {
   constructor(page) {
     this.page = page;
-    this.usernameField = '#username';
-    this.passwordField = '#password';
-    this.loginButton = '#loginBtn';
+    this.usernameField = this.page.getByLabel('Email');
+    this.passwordField = this.page.getByLabel('Password');
+    this.loginButton = this.page.getByRole('button', { name: 'Login' });
   }
 
   async goto() {
